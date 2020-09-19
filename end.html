@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Goodjob!</title>
+    <link rel="stylesheet" href="resources/css/style.css">
+</head>
+<body>
+    <main>
+        <div class="container">
+            <div id="end" class="flex-column flex-center">
+                <h1 id="finalScore"></h1>
+                <form>
+                    <input type="text" name="username" id="username" placeholder="Your name">
+                    <button 
+                        type="submit" 
+                        class="btn" 
+                        id="saveScoreBtn"
+                        disabled
+                        onclick="saveHighScore(event)">
+                        Save Score
+                    </button>
+                </form>
+    
+                <a class="btn" href="game.html">Play Again</a>
+                <a class="btn" href="/">Home</a>
+            </div>
+        </div>
+    </main>
+    
+
+    <script src="resources/js/end.js"></script>
+</body>
+</html>

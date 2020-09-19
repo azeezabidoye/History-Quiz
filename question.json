@@ -1,0 +1,26 @@
+[
+    {
+        "question": "What's the full meaning of JS?",
+        "choice1": "JavaScope",
+        "choice2": "JungleStunt",
+        "choice3": "JavaScript",
+        "choice4": "All of the above",
+        "answer": "3"
+    },
+    {
+        "question": "What's the full meaning of 'H' in HTML?",
+        "choice1": "Hypertext",
+        "choice2": "Hyperlink",
+        "choice3": "Hypo",
+        "choice4": "Hip-hop",
+        "answer": "1"
+    },
+    {
+        "question": "Is Java the same as JavaScript?",
+        "choice1": "Yes",
+        "choice2": "No",
+        "choice3": "Maybe",
+        "choice4": "None of the above",
+        "answer": "2"
+    }
+]

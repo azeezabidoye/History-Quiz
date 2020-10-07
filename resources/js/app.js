@@ -14,6 +14,7 @@ let questionCounter = 0;
 
 let questions = [];
 
+
 fetch("https://opentdb.com/api.php?amount=20&category=23&difficulty=easy&type=multiple")
 .then(res => {
     return res.json()
@@ -101,7 +102,7 @@ choices.forEach(choice => {
         setTimeout(() => {
             selectedChoice.parentElement.classList.remove(classToApply);
             getNewQuestions();
-        }, 1000);  
+        }, 1500);  
     });
 });
 

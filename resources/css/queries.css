@@ -1,0 +1,59 @@
+
+@media only screen and (max-width: 358px) {
+
+    h1 {
+        text-align: center;
+        font-size: 2.5rem;
+        margin-bottom: 0.35rem;
+    }
+
+    #question {
+        text-align: center;
+        font-size: 2.5rem;
+        margin: 2rem auto;
+    }
+    
+    .btn {
+        font-size: 1.3rem;
+        width: 15rem;
+        padding: 0.7rem 0;
+    }
+
+    input {
+        width: 15rem;
+        padding: 0.7rem 0 0.7rem 1rem;
+    }
+
+    input::placeholder {
+        font-size: 1.1rem;
+    }
+
+    .choice-container {
+        margin-bottom: 1rem;
+        font-size: 1.2rem;
+    }
+    
+    .choice-prefix {
+        padding: 1rem 2rem;
+    }
+    
+    .choice-text {
+        padding: 1rem;
+    }
+
+    #progressBar {
+        width: 14rem;
+        height: 2.5rem;
+        margin-top: 0;
+    }
+    
+    #progressBarFull {
+        width: 0%;
+        height: 2.1rem;
+        margin-top: 0;
+    }
+
+    .hud-prefix {
+        font-size: 1.2rem;
+    }
+}
